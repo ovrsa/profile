@@ -37,7 +37,9 @@ export default function Home() {
         <main>
           <div>
             <section id="hero" className="mb-20 sm:mb-16">
-              <h1 className="text-6xl font-bold pb-5 sm:text-4xl sm:pb-3">👋 Hi, I'm Kyo Yamasaki.</h1>
+              <h1 className="text-6xl font-bold pb-5 sm:text-4xl sm:pb-3">
+                👋 Hi, I&apos;m Kyo Yamasaki.
+              </h1>
               <p className="text-lg sm:text-base">
                 I am a software engineer based in Tokyo, and I enjoy creating products.
               </p>
