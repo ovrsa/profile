@@ -15,5 +15,5 @@ export default {
       },
     },
   },
-  plugins: [], // 必要なTailwind CSSプラグイン
+  plugins: [],
 } satisfies Config;

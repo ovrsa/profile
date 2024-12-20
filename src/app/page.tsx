@@ -22,13 +22,15 @@ export default function Home() {
       {/* ヘッダー */}
       <header className="mb-10 w-full flex justify-between items-center p-12 sm:p-8">
         <div>
-          <p className="font-bold">Kyo Yamasaki</p>
+          <div className="mx-auto max-w-screen-lg">
+            <p className="font-bold">Kyo Yamasaki</p>
+          </div>
         </div>
         <button
           onClick={toggleTheme}
           className="px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-md transition-all"
         >
-          {isDarkMode ? "🌙" : "☀️"}
+          {isDarkMode ? "☀️" : "🌙"}
         </button>
       </header>
 
@@ -41,7 +43,7 @@ export default function Home() {
                 👋 Hi, I&apos;m Kyo Yamasaki.
               </h1>
               <p className="text-lg sm:text-base">
-                I am a software engineer based in Tokyo, and I enjoy creating products.
+                I am a software engineer based in Tokyo.
               </p>
             </section>
 
